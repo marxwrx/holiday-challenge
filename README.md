@@ -12,9 +12,9 @@ O desafio pedia a implementação da listagem de feriados com filtros e ordenaç
 Além disso, haviam três abas no layout (`Tela A`, `Tela B`, `Tela C`) que ficariam vazias.  
 Como seria estranho entregar as telas “mortas”, aproveitei o espaço para **adicionar funcionalidades extras**
 
-- A **primeira aba** virou um **calendário**, onde o usuário pode visualizar os feriados no mês e, ao clicar em uma data, ver o nome e o tipo do feriado.
-- A **segunda aba** se tornou uma tela de **exportação** (CSV e JSON) dos feriados listados.
-- A **terceira aba** permanece como a **tabela principal**, com busca, filtros e ordenação
+- A **primeira aba** virou um calendário, onde o usuário pode visualizar os feriados no mês e, ao clicar em uma data, ver o nome e o tipo do feriado.
+- A **segunda aba** se tornou uma tela de exportação (CSV e JSON) dos feriados listados.
+- A **terceira aba** permanece como a tabela principal, com busca, filtros e ordenação
 
 
 ---
@@ -31,7 +31,7 @@ Como seria estranho entregar as telas “mortas”, aproveitei o espaço para **
 
 ---
 
-## 🧱 Estrutura do projeto
+## Estrutura do projeto
 
 ````
 src/
@@ -60,7 +60,7 @@ src/
 │ └─ setupTests.ts
 ````
 
-## 🧭 Funcionalidades principais
+## Funcionalidades principais
 
 ###  **Holiday Table**
 - Consome `https://brasilapi.com.br/api/feriados/v1/2025`
